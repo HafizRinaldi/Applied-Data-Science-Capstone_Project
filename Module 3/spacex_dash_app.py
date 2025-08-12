@@ -76,4 +76,4 @@ def update_scatter_chart(entered_site, payload_range):
 
 # Run the app on a different port (e.g., port 8060)
 if __name__ == '__main__':
-    app.run_server(port=8060)
+    app.run()
